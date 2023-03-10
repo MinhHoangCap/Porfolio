@@ -1,0 +1,12 @@
+.footer{
+    padding: 10px 0;
+    text-align: center;
+}
+.admin-link{
+    text-decoration: none;
+    color: blue;
+
+    &:hover{
+        color: rgb(65, 65, 253);
+    }
+}

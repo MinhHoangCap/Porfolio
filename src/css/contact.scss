@@ -1,0 +1,83 @@
+.contact{
+    padding: 50px 0;
+    &__list{
+        list-style-type: none;
+    }
+    &__element{
+        display: flex;
+
+    }
+    &__icon{
+        margin: 0 10px;
+    }
+    &__social{
+        padding: 20px 0;
+    }
+    &__heading{
+        font-size: 2rem;
+        text-align: start;
+        margin-left: 10px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    &__social-list{
+        list-style-type: none;
+        display: flex;
+    }
+    &__social-element{
+        margin: 0 10px;
+    }
+}
+
+.form{
+    &__inputs{
+        list-style-type: none;
+
+    }
+    &__element{
+        display: flex;
+    }
+    &__name{
+        flex: 1;
+
+    }
+    &__email{
+        flex: 1;
+    }
+    &__content{
+        flex: 1;
+        height: 170px;
+    }
+    &__btn{
+        margin: 0 auto ;
+        padding: 5px 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: none;
+
+        &:hover{
+            background-color: black;
+            color: wheat;
+        }
+    }
+}
+
+.fa{
+    
+    &-twitter:hover{
+        color:skyblue;
+        font-size: 1.25rem;
+    }
+    &-facebook:hover{
+        color:blue;
+        font-size: 1.25rem;
+    }
+    &-google:hover{
+        color:red;
+        font-size: 1.25rem;
+    }
+    &-github:hover{
+        color:rgb(250, 1, 250);
+        font-size: 1.25rem;
+    }
+}

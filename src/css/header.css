@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navigation {
+  background-color: rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.navigation__item {
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+.navigation__link {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.navigation__link:hover {
+  color: rgb(128, 128, 128);
+}/*# sourceMappingURL=header.css.map */

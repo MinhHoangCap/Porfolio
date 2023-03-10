@@ -1,0 +1,28 @@
+.social{
+    display: flex;
+    flex-direction: column;
+
+
+
+
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+
+    font-size: 30px;
+
+
+    &__messenger i{
+        color: rgb(2, 154, 214);
+    }
+    &__messenger i:hover{
+        font-size: 35px;
+    }
+    &__call i{
+        color: rgb(2, 158, 2);
+    }
+    &__call i:hover{
+        font-size: 35px ;
+    }
+}
+

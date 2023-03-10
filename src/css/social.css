@@ -1,0 +1,20 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  font-size: 30px;
+}
+.social__messenger i {
+  color: rgb(2, 154, 214);
+}
+.social__messenger i:hover {
+  font-size: 35px;
+}
+.social__call i {
+  color: rgb(2, 158, 2);
+}
+.social__call i:hover {
+  font-size: 35px;
+}/*# sourceMappingURL=social.css.map */

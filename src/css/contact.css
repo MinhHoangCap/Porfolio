@@ -1,0 +1,74 @@
+.contact {
+  padding: 50px 0;
+}
+.contact__list {
+  list-style-type: none;
+}
+.contact__element {
+  display: flex;
+}
+.contact__icon {
+  margin: 0 10px;
+}
+.contact__social {
+  padding: 20px 0;
+}
+.contact__heading {
+  font-size: 2rem;
+  text-align: start;
+  margin-left: 10px;
+  font-weight: bolder;
+  text-align: center;
+}
+.contact__social-list {
+  list-style-type: none;
+  display: flex;
+}
+.contact__social-element {
+  margin: 0 10px;
+}
+
+.form__inputs {
+  list-style-type: none;
+}
+.form__element {
+  display: flex;
+}
+.form__name {
+  flex: 1;
+}
+.form__email {
+  flex: 1;
+}
+.form__content {
+  flex: 1;
+  height: 170px;
+}
+.form__btn {
+  margin: 0 auto;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.form__btn:hover {
+  background-color: black;
+  color: wheat;
+}
+
+.fa-twitter:hover {
+  color: skyblue;
+  font-size: 1.25rem;
+}
+.fa-facebook:hover {
+  color: blue;
+  font-size: 1.25rem;
+}
+.fa-google:hover {
+  color: red;
+  font-size: 1.25rem;
+}
+.fa-github:hover {
+  color: rgb(250, 1, 250);
+  font-size: 1.25rem;
+}/*# sourceMappingURL=contact.css.map */

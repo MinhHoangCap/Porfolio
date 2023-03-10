@@ -1,0 +1,39 @@
+.indexPage{
+    
+    height: calc(100vh - 100px);
+    position: relative;
+    background-image: url('https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=');
+
+    /* Set a specific height */
+    min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__wrapper{
+        // margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+}
+.welcome-txt{
+
+    font-size: 1.75rem;
+}
+.introduce-txt{
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff00cc, #333399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.direction-txt{
+    font-size: 1.75rem;
+}
